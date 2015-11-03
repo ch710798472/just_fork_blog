@@ -1,0 +1,72 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: 墨眉0===||=========>
+email: sa615291@mail.ustc.edu.cn
+description: > # this means to ignore newlines until "baseurl:"
+  A simple and awesome blog theme powered by jekyll.
+url: http://ch710798472.github.io/blog # the base hostname & protocol for your site
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+markdown:    redcarpet
+highlighter: pygments
+excerpt_separator: <!--more-->
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+redcarpet:
+    extensions: [ "fenced_code_blocks", "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+#kramdown:
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..6
+#  use_coderay: false
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+owner:
+  name: ch
+  avatar: bio-photo.jpg
+  bio: "似剑非攻，墨眉无锋，漆黑如墨，无刃无锋！"
+  email: sa615291@mail.ustc.edu.cn
+  disqus-shortname: ch710798472blog
+  twitter:  #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: ch710798472 #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: ch710798472 #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
